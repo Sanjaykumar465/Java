@@ -1,0 +1,7 @@
+class array_name
+{
+public static void main(String[] args)
+{
+int a[] = new int[3];
+System.out.println(x.getClass().getName());
+}}

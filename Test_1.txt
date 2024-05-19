@@ -1,0 +1,14 @@
+class Test_1
+{
+int x ;
+boolean b;
+double d;
+String s;
+public static void main(String[] args)
+{
+Test_1 t1 = new Test();
+System.out.println(t1.x);
+System.out.println(t1.b);
+System.out.println(t1.d);
+System.out.println(t1.s);
+}}
