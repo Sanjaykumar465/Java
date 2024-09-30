@@ -1,3 +1,4 @@
+import java .util.Arrays;
 public class AnytimePractice {
     public static void Maxsum(int numbers[])  {
         int currsum = 0;
@@ -56,14 +57,23 @@ public static int RainwaterTrapped(int height[])  {
         trappedwater += waterlevel - height[i];
     }
     return trappedwater;
+
+}
+public static void printarr(int arr[])  {
+    for(int i = 0; i<arr.length;i++)  {
+        System.out.print(arr[i] + " ");
+    }
+    System.out.println();
 }
 
      
         
 
     public static void main(String[] args) {
-        int height[] = {4 , 2 , 0 , 6 , 3 , 2 , 5};
-        System.out.println(" The amount of water trapped :" + RainwaterTrapped(height));
+        int arr[] = {4 , 7 , 1 , 6 , 3 , 2 , 5};
+        Arrays.sort(arr ,0,);
+        printarr(arr);
+        // System.out.println(" The amount of water trapped :" + RainwaterTrapped(height));
        
 
     }
