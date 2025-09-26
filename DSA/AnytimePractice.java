@@ -66,12 +66,9 @@ public static void printarr(int arr[])  {
     System.out.println();
 }
 
-     
-        
-
     public static void main(String[] args) {
         int arr[] = {4 , 7 , 1 , 6 , 3 , 2 , 5};
-        Arrays.sort(arr ,0,);
+        Arrays.sort(arr, 0, arr.length);
         printarr(arr);
         // System.out.println(" The amount of water trapped :" + RainwaterTrapped(height));
        
